@@ -1,0 +1,50 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url('escudo2.jpg'); 
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     
+  }  
+
+   .calculator {
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 300px;
+  }
+
+  button {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  input {
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+     
+  .title {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(15, 197, 182);
+  }
